@@ -13,6 +13,7 @@ def long_planeteer_calls(calls)# code an argument here
   calls.each do |call|
     return true if call.length > 4
   end
+  false
 end
 
 def find_the_cheese# code an argument here
